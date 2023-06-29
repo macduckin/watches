@@ -1,0 +1,528 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Cabin:wght@500&family=DM+Sans:ital,wght@1,500&family=Fira+Sans:wght@300&family=Montserrat:ital@0;1&family=Open+Sans:ital,wght@1,300;1,400&family=Outfit:wght@200&family=Righteous&family=Secular+One&display=swap");
+body {
+  margin: 15px 180px;
+  font-family: "Open Sans", sans-serif;
+}
+/*header*/
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.header-logo {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.links a {
+  padding-left: 15px;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+/*page about watches*/
+.watch-page {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+.watch-img img {
+  width: 80%;
+}
+.watch-img {
+  padding-top: 10%;
+}
+.watch-text h1 {
+  font-size: 45px;
+}
+.watch-text p {
+  color: #7d7987;
+}
+.watch-text {
+  padding-top: 100px;
+  padding-left: 130px;
+}
+#btn {
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  border: 0;
+  background-color: orange;
+  color: white;
+  box-shadow: 0 0 20px 0 orange;
+  opacity: 0.7;
+}
+/* Why Smart-Watches */
+.why {
+  margin-top: 20%;
+}
+.why-watch h2 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.why-text {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.why-img {
+  position: absolute;
+  left: 42%;
+}
+.why-img img {
+  width: 80%;
+}
+.text {
+  font-size: 13px;
+  max-width: -20px;
+}
+.number-2 {
+  margin-bottom: 20px;
+}
+i {
+  font-size: 20px;
+}
+.why-text p {
+  color: #7d7987;
+}
+/* Orange */
+.orange {
+  margin-top: 70px;
+  margin: 10px -180px;
+  height: 80vh;
+  background-color: orange;
+}
+.orange-page {
+  margin: 15px 130px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.orange-img img {
+  width: 80%;
+}
+.orange-img {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.orange-text {
+  font-size: 15px;
+  text-align: center;
+  width: 50%;
+  margin-top: 15%;
+  margin-right: 10%;
+  color: white;
+}
+.orange-text p {
+  font-size: 15px;
+  color: rgb(241, 236, 236);
+}
+/* Display,health */
+.rec-title {
+  text-align: center;
+  font-size: 20px;
+}
+
+.rec-flex {
+  margin-top: 150px;
+  flex-direction: column;
+  margin: 20px 20px;
+}
+.display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.health {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.health-img img {
+  width: 300px;
+}
+.dis-img img {
+  width: 300px;
+}
+.dis-text p {
+  font-size: 15px;
+  color: #7d7987;
+}
+.health-text p {
+  font-size: 15px;
+  color: #7d7987;
+}
+.dis-text {
+  margin-left: 70px;
+}
+.health-text {
+  margin-right: 50px;
+}
+/* Last part */
+.picha {
+  margin-top: 70px;
+}
+.picha-title {
+  text-align: center;
+  font-size: 20px;
+}
+.images {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.images img {
+  width: 18%;
+  margin-left: 10px;
+}
+/*Comments*/
+.comments {
+  margin-top: 200px;
+  margin: 15px -100px;
+}
+.comments-title {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.comment h1 {
+  color: orange;
+  font-size: 60px;
+}
+.comments-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.comment {
+  font-size: 15px;
+  margin-top: -50px;
+  margin-right: 40px;
+  text-align: center;
+}
+.c-3 {
+  text-align: center;
+}
+
+.account img {
+  width: 80px;
+  border-radius: 100px;
+}
+.ac-btn {
+  height: 40px;
+  width: 300px;
+  border-radius: 20px;
+  border: 0;
+  background-color: orange;
+  color: white;
+  margin-left: 38%;
+  margin-top: 60px;
+  box-shadow: 0 0 20px 0 orange;
+  opacity: 0.7;
+}
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #efeff7;
+  margin-top: 250px;
+  margin: 10px -180px;
+  height: 30vh;
+}
+.title {
+  margin-left: 170px;
+}
+.copyright {
+  margin-left: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.burger {
+  display: none;
+}
+.openMenu {
+  display: none;
+}
+.footer-class {
+  margin-right: 10px;
+}
+#slaider-btn {
+  display: none;
+}
+/* Капец как лень делать эту адаптацию */
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+  #header {
+    display: none;
+  }
+  .burger {
+    position: fixed;
+    top: 0;
+    left: 40%;
+    padding: 15px;
+    background-color: orange;
+    box-shadow: 0 0 20px 0 #999;
+    display: none;
+    transition: top 1s ease;
+  }
+  .burger-links {
+    display: flex;
+    flex-direction: column;
+  }
+  .burger-links a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  .close {
+    margin-left: 5px;
+    color: white;
+    font-size: 18px;
+    margin-right: 50px;
+  }
+  .burger-links a:hover {
+    background-color: red;
+  }
+  .openMenu {
+    display: block;
+    margin-left: 100px;
+  }
+  .website {
+    margin-left: 50px;
+  }
+  .watch-img {
+    margin-left: 49px;
+    margin-top: 120px;
+  }
+  .watch-img img {
+    width: 200px;
+  }
+  .watch-page {
+    flex-direction: column;
+    width: 100px;
+  }
+
+  .watch-text h1 {
+    font-size: 22px;
+  }
+  .watch-text p {
+    font-size: 16px;
+  }
+  .watch-text {
+    padding-left: 20px;
+    width: 250px;
+  }
+  /* why */
+  .why {
+    margin-top: 150px;
+  }
+  .why-text {
+    margin-top: 60px;
+    flex-direction: column;
+  }
+  .why-img {
+    position: absolute;
+    margin-top: 160%;
+    left: 10%;
+  }
+  .why-img img {
+    width: 70%;
+  }
+  .why-watch h2 {
+    text-align: start;
+    font-size: 25px;
+  }
+  .text {
+    font-size: 16px;
+    margin-left: 15px;
+    width: 70%;
+  }
+  .number-2 {
+    margin-top: 360px;
+  }
+  i {
+    font-size: 25px;
+    margin-left: 15px;
+  }
+  .why-text p {
+    color: #7d7987;
+  }
+  /* orange */
+  .orange {
+    margin-top: 70px;
+    height: 100vh;
+    background-color: orange;
+    width: 500px;
+  }
+  .orange-page {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .orange-img img {
+    width: 140%;
+  }
+  .orange-img {
+    margin-left: 50%;
+  }
+  .orange-text {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 30%;
+    color: white;
+  }
+  .orange-text p {
+    font-size: 15px;
+    color: rgb(241, 236, 236);
+  }
+  /* Recomendations */
+  .rec-title {
+    font-size: 18px;
+    width: 300px;
+  }
+  .rec-flex {
+    margin-top: 100px;
+    flex-direction: column;
+  }
+  .display {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .health {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .health-img img {
+    width: 200px;
+  }
+  .health-img {
+    margin-right: 100px;
+  }
+  .dis-img {
+    margin-right: 100px;
+  }
+  .dis-img img {
+    width: 250px;
+  }
+  .dis-text p {
+    font-size: 15px;
+    color: #7d7987;
+  }
+  .health-text p {
+    font-size: 15px;
+    color: #7d7987;
+  }
+  .dis-text {
+    margin-right: 150px;
+    width: 250px;
+  }
+  .health-text {
+    margin-right: 80px;
+    width: 250px;
+  }
+  /* Model */
+  .picha {
+    margin-top: 100px;
+  }
+  .slider {
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+    overflow: hidden;
+    margin-right: 100px;
+  }
+  #slaider-btn {
+    display: flex;
+    height: 30px;
+    width: 50px;
+    border-radius: 20px;
+    border: 0;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .slider-line {
+    width: 350px;
+    height: 260px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+  }
+  .picha-title {
+    font-size: 25px;
+    width: 200px;
+    margin-left: 40px;
+  }
+  .images {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .images img {
+    width: 50%;
+    padding: 50px;
+  }
+  /* comments */
+  .comments {
+    margin-top: 200px;
+    margin: 0;
+    height: 240vh;
+  }
+  .comments-title {
+    margin-right: 70px;
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+  .comments-flex {
+    flex-direction: column;
+  }
+  .comment {
+    font-size: 15px;
+    margin-top: -50px;
+    margin-left: 10px;
+    text-align: start;
+    width: 270px;
+  }
+  #c-2 {
+    width: 250px;
+  }
+  .comment h1 {
+    margin-left: 40%;
+    margin-bottom: 5%;
+  }
+  .account img {
+    width: 200px;
+  }
+  .account {
+    margin-left: 30px;
+  }
+  .account h2 {
+    margin-left: -10px;
+  }
+  .ac-btn {
+    margin-left: 5%;
+    width: 250px;
+    font-size: 15px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .footer {
+    display: none;
+  }
+}
